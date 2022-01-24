@@ -1,0 +1,6 @@
+n = input('Digite algo: ')
+print('É um número?,', n.isnumeric())
+print('É uma palavra?,', n.isalpha())
+print('É alphanumérico?,', n.isalnum())
+print('É formado apenas por letras maiusculas?,', n.isupper())
+print('É formado apenas por letras minusculas?,', n.islower())
